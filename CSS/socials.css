@@ -8,6 +8,7 @@ body {
 }
 .navbar {
     position: fixed;
+    width: 100%;
     padding: 15px 15px 15px 15px;
     margin: 10px 10px 10px 10px;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -24,6 +25,7 @@ ul.navbar-choice {
 ul li.menu-choice {
 
 }
+/*Le logo du dragon doit pouvoir passer derrière la barre de menu (non réalisé)*/
 #logo-dragon {
     margin: auto;
     position: relative;
@@ -44,7 +46,7 @@ h1 {
     height: 100px;
 }
 #links-button {
-
+/*Je voulais mettre quoi là ?*/
 }
 ul.links-buttons{
     color: #f9f3f2;
