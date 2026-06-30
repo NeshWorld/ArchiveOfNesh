@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    width: 1000px;
+    width: 100%;
 }
 #top {
     position: fixed;
@@ -35,14 +35,19 @@
 
 #search_bar{               /*Barre de recherche du site*/
     width: 30ch;
-
 }
 
 #search_bar input{
-    width: 150px;
+    width: 100%;
+    height: 25px;
     font-family: Arial, sans-serif;
 }
 
+/*Aligne le texte de la barre de recherche (seulement le placeholder, pas le texte rééllement écrit)*/
+#search_bar input::placeholder {
+    text-align: center;
+    align-items: center;
+}
 #accueil{
     text-align: center;
 }
